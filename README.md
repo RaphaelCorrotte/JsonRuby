@@ -30,7 +30,7 @@ end
 ```
 
 ```ruby
-data = {:hello=>world}
+data = {:hello=>"world"}
 writer = JsonRuby::Read.new "file.json"
 writer.build
 if writer.built? 
