@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://discordapp.com/api/webhooks/747984798156324986/vsTPHOCCr4C1Aqes1RJ_mg5p7jUCxmkqzf-nCgj5pGuejkccR6JnVik3fyswFGZIlkT3/github"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/Senchuu/JsonRuby"
