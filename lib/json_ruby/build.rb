@@ -4,7 +4,7 @@ class Build
         @path = path
     end
     def build
-        if path then
+        if path
             if JSON.load_file path then
                 @data = JSON.load_file path
                 @built = true
@@ -14,4 +14,5 @@ class Build
     def built?
         @built || false
     end
+    @data = @data.to_json
 end
